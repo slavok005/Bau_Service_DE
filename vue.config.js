@@ -1,7 +1,7 @@
 module.exports = {
   devServer: {
-    allowedHosts: "all", // Разрешает все хосты
-    host: "0.0.0.0", // Принимает соединения извне
-    port: 8080, // Укажите ваш порт (если нужен другой)
+    allowedHosts: "all",
+    host: "0.0.0.0",
+    port: process.env.PORT || 10000,
   },
 };

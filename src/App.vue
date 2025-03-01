@@ -3,7 +3,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/services">Services</router-link> |
     <router-link to="/portfolio">Portfolio</router-link> |
-    <router-link to="/contacts">Contacts</router-link> 
+    <router-link to="/contacts">Contacts</router-link> |  
     <router-link to="/about">About</router-link> 
   </nav>
   <router-view/>
