@@ -1,9 +1,7 @@
 module.exports = {
-  configureWebpack: {
-    plugins: [
-      new (require('webpack')).DefinePlugin({
-        '__VUE_PROD_HYDRATION_MISMATCH_DETAILS__': JSON.stringify(false)
-      })
-    ]
-  }
+  devServer: {
+    allowedHosts: "all", // Разрешает все хосты
+    host: "0.0.0.0", // Принимает соединения извне
+    port: 8080, // Укажите ваш порт (если нужен другой)
+  },
 };
