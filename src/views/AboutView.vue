@@ -1,9 +1,10 @@
 <template>
 <div class="about">
       <h2>Bau_Service_DE</h2>
-      <h2>О нас</h2>
-      <p>Наша компания специализируется на шлифовке полов и укладке наливных покрытий. Мы работаем с разными типами поверхностей и гарантируем качественный результат. Наш опыт позволяет решать задачи любой сложности, обеспечивая надежность и долговечность полов.</p>
-      <p>Мы используем современные технологии и материалы, что позволяет добиваться идеального результата в кратчайшие сроки. Доверяя нам, вы получаете профессиональный подход и высокий уровень сервиса.</p>
+      <h2> Über uns</h2>
+      <p>Unser Unternehmen ist auf das Bodenschleifen und die Installation von selbstverlaufenden Beschichtungen spezialisiert. Wir bearbeiten unterschiedliche Oberflächen und garantieren hochwertige Ergebnisse. Unsere Erfahrung ermöglicht es uns,
+         Probleme jeder Komplexität zu lösen und so die Zuverlässigkeit und Haltbarkeit von Böden zu gewährleisten.</p>
+      <p>Wir verwenden moderne Technologien und Materialien, wodurch wir in kürzester Zeit das optimale Ergebnis erzielen. Wenn Sie uns Ihr Vertrauen schenken, profitieren Sie von einer professionellen Betreuung und einem hohen Serviceniveau.</p>
     </div>
 </template>
 <style scoped>

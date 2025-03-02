@@ -1,17 +1,17 @@
 <template>
   <div class="services">
-    <h1>Услуги</h1>
-    <p>Мы предоставляем высококачественные услуги по шлифовке полов и наливным полам. Эти процессы помогут преобразить ваш интерьер, придавая ему новый, элегантный вид.</p>
+    <h1>Dienstleistungen</h1>
+    <p>Wir bieten hochwertige Bodenschleif- und selbstnivellierende Bodenverlegungsdienste an. Diese Prozesse tragen dazu bei, Ihr Interieur zu verwandeln und ihm ein neues, elegantes Aussehen zu verleihen.</p>
     <CostCalculator />
-    <h2>Шлифовка полов</h2>
-    <p>Шлифовка пола — это процесс улучшения поверхности деревянного покрытия, удаление дефектов и выравнивание. Это делает полы более долговечными и эстетичными.</p>
+    <h2>Bodenschleifen</h2>
+    <p>Wir restaurieren Holz- und Betonoberflächen, beseitigen Mängel und verleihen Ihrem Boden eine neue Optik.</p>
     <img src="@/assets/images/15.jpg" alt="Шлифовка полов" class="service-image" />
     <img src="@/assets/images/20.jpg" alt="Наливные полы" class="service-image" />
     <img src="@/assets/images/22.jpg" alt="Наливные полы" class="service-image" />
 
-    <h2>Наливные полы</h2>
-    <p>Наливные полы — это современное решение для создания идеально ровной и прочной поверхности. Мы используем только качественные материалы для долгосрочного результата.</p>
-    <img src="@/assets/images/1.jpg" alt="Наливные полы" class="service-image" />
+    <h2>Selbstnivellierende Böden</h2>
+    <p>Selbstnivellierende Böden sind eine moderne Lösung zur Schaffung einer vollkommen ebenen und langlebigen Oberfläche. Für langfristige Ergebnisse verwenden wir ausschließlich hochwertige Materialien.</p>
+    <img src="@/assets/images/1.png" alt="Наливные полы" class="service-image" />
     <img src="@/assets/images/14.jpg" alt="Наливные полы" class="service-image" />
     <img src="@/assets/images/12.jpg" alt="Наливные полы" class="service-image" />
     

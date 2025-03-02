@@ -17,7 +17,7 @@ const routes = [
     component: AboutView
   },
   {
-    path: '/services',
+    path: '/service',
     name: 'services',
     component: ServicesView
   },

@@ -1,9 +1,9 @@
 <template>
     <div class="cost-calculator">
-      <h2>Калькулятор стоимости</h2>
-      <label for="area">Площадь (м²):</label>
+      <h2>Kostenrechner</h2>
+      <label for="area">Quadrat(м²):</label>
       <input type="number" v-model="area" placeholder="Введите площадь" />
-      <p>Стоимость: {{ calculateCost }} eu.</p>
+      <p>Preis: {{ calculateCost }} eu.</p>
     </div>
   </template>
   

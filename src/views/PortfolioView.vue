@@ -1,7 +1,7 @@
 <template>
   <div class="portfolio">
-    <h1>Портфолио</h1>
-    <p>Посмотрите примеры наших выполненных работ, чтобы убедиться в качестве наших услуг.</p>
+    <h1>Portfolio</h1>
+    <p>Schauen Sie sich Beispiele unserer abgeschlossenen Arbeiten an, um sich von der Qualität unserer Dienstleistungen zu überzeugen.</p>
     
     <div class="portfolio-images">
       <img src="@/assets/images/3.jpg" alt="Работа 1" class="portfolio-image" />
