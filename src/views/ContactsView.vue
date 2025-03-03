@@ -1,6 +1,6 @@
 <template>
   <div class="contacts">
-    <h1>Kontakte</h1>
+    <h2>Kontakte</h2>
     <p>Kontaktieren Sie uns, wir beantworten gerne Ihre Fragen!</p>
 
     <div class="contact-info">

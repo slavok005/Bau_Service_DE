@@ -1,6 +1,6 @@
 <template>
   <div class="portfolio">
-    <h1>Portfolio</h1>
+    <h2>Portfolio</h2>
     <p>Schauen Sie sich Beispiele unserer abgeschlossenen Arbeiten an, um sich von der Qualität unserer Dienstleistungen zu überzeugen.</p>
     
     <div class="portfolio-images">

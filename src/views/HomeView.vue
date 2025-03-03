@@ -1,8 +1,9 @@
 <template>
   <div class="home">
+    <div class="view-counter">Ansichten: {{ views }}</div>
     <div class="hero">
       <div class="overlay">
-        <h1>Schleifen und selbstnivellierende Böden</h1>
+        <h2>Schleifen und selbstnivellierende Böden</h2>
         <p>Wir bieten hochwertige Bodenschleif- und Verlegedienste für Ihr Zuhause und Ihr Unternehmen.</p>
         <router-link to="/services" class="btn">Erfahren Sie mehr über unsere Leistungen</router-link>
       </div>
@@ -24,7 +25,7 @@
           <router-link to="/services" class="btn">Mehr lesen</router-link>
         </div>
         <div class="feature-card">
-          <img src="@/assets/images/11.jpg" alt="Наливные полы" />
+          <img src="@/assets/images/9.jpg" alt="Наливные полы" />
           <h3>Lasst uns das Gebäude abreißen</h3>
           <p>Wir demontieren jedes Gebäude, unabhängig von der Komplexität. In kurzer Zeit.</p>
           <router-link to="/services" class="btn">Mehr lesen</router-link>
@@ -32,7 +33,7 @@
       </div>
     </div>
 
-    <div class="view-counter">Ansichten: {{ views }}</div>
+ 
   </div>
 </template>
 
@@ -63,35 +64,42 @@ export default {
   background: url('@/assets/images/14.jpg') no-repeat center center;
   background-size: cover;
   color: white;
-  padding: 100px 0;
+  padding: 80px 20px;
   position: relative;
 }
 
 .overlay {
   background: rgba(0, 0, 0, 0.6);
-  padding: 50px;
+  padding: 40px;
   border-radius: 10px;
   display: inline-block;
   animation: fadeIn 1.5s ease-in-out;
+  max-width: 90%;
 }
 
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
+.main-title {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, black 33%, red 33%, red 66%, yellow 66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
 }
 
 .hero p {
-  font-size: 1.5rem;
-  margin-bottom: 30px;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
 }
 
 .btn {
   background: linear-gradient(45deg, #007bff, #00d4ff);
   color: white;
-  padding: 12px 25px;
+  padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
   transition: 0.3s;
+  display: inline-block;
 }
 
 .btn:hover {
@@ -99,20 +107,22 @@ export default {
 }
 
 .features {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .feature-cards {
   display: flex;
   justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .feature-card {
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   text-align: center;
   border: 1px solid #ddd;
-  padding: 20px;
+  padding: 15px;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s, box-shadow 0.3s;
@@ -124,27 +134,27 @@ export default {
 }
 
 .feature-card img {
-  width: 80%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
 }
 
 .feature-card h3 {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .feature-card p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #555;
 }
 
 .feature-card .btn {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .view-counter {
-  margin-top: 30px;
-  font-size: 1.2rem;
+  margin-top: 20px;
+  font-size: 1rem;
   color: #333;
   font-weight: bold;
 }
@@ -152,5 +162,26 @@ export default {
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 3rem;
+  }
+  .hero p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 40px 10px;
+  }
+  .main-title {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
 }
 </style>

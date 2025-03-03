@@ -1,8 +1,8 @@
 <template>
   <div class="services">
-    <h1>Dienstleistungen</h1>
+    <h2>Dienstleistungen</h2>
     <p>Wir bieten hochwertige Bodenschleif- und selbstnivellierende Bodenverlegungsdienste an. Diese Prozesse tragen dazu bei, Ihr Interieur zu verwandeln und ihm ein neues, elegantes Aussehen zu verleihen.</p>
-    <CostCalculator />
+    <!-- <CostCalculator /> -->
     <h2>Bodenschleifen</h2>
     <p>Wir restaurieren Holz- und Betonoberflächen, beseitigen Mängel und verleihen Ihrem Boden eine neue Optik.</p>
     <img src="@/assets/images/15.jpg" alt="Шлифовка полов" class="service-image" />
@@ -20,14 +20,14 @@
 </template>
 
 <script>
-import CostCalculator from '@/components/CostCalculator.vue'
+// import CostCalculator from '@/components/CostCalculator.vue'
 
-export default {
-  name: 'ServicesView',
-  components: {
-    CostCalculator
-  }
-}
+// export default {
+//   name: 'ServicesView',
+//   components: {
+//     CostCalculator
+//   }
+// }
 </script>
 
 <style scoped>

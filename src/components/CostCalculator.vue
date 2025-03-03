@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div class="cost-calculator">
       <h2>Kostenrechner</h2>
       <label for="area">Quadrat(м²):</label>
@@ -33,4 +33,4 @@
     padding: 5px;
   }
   </style>
-  
+   -->
